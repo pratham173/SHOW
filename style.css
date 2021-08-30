@@ -1,0 +1,204 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	width: 100%;
+	height: 100vh;
+    background-image: url("Untitled\ design\ \(3\).png");
+	font-family: 'Dosis', sans-serif;
+	position: relative;
+	background-size: cover;
+}
+
+.header_menu{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.logo{
+	width: 100px;
+	text-align: center;
+}
+
+.logo img{
+	height: 110px;
+}
+
+.menu_list{
+	width: 80%;
+	text-align: right;
+	padding-right: 50px;
+}
+
+.menu_list li{
+	display: inline-block;
+	text-transform: uppercase;
+	list-style: none;
+	letter-spacing: 2px;
+	padding-left: 50px;
+}
+
+.menu_list li a{
+	font-weight: bolder;
+	background-image: linear-gradient(
+	to right,
+	#e05149 0,
+	#6ae097 22%, 
+#35c796 45%,
+#7abbf0 50%,
+#cfb42e 55%,
+#1be4da 78%,
+#bff73efb 100%
+		);
+	   color:transparent;
+	   -webkit-background-clip: text;
+	   color:transparent;
+	   -webkit-background-clip:text;
+    
+}
+
+.menu_list li a:hover{
+	color:rgb(60, 13, 233);
+}
+
+.header_content{
+	text-transform: uppercase;
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color:rgb(255, 255, 255);
+	transform: translate(-50%, -50%);
+	text-align: center;
+	text-decoration: rgb(0, 0, 0);
+	font-weight: 900;
+}
+
+.header_content h2{
+	margin-bottom: 50px;
+	font-size: 17px;
+	font-weight: bolder;
+	letter-spacing: 0.3em;
+	background-image: linear-gradient(
+	to right,
+	#8a332e 0,
+	#6ae097 22%, 
+#35c796 45%,
+#7abbf0 50%,
+#cfb42e 55%,
+#1be4da 78%,
+#bff73efb 100%
+		);
+	   color:transparent;
+	   -webkit-background-clip: text;
+
+}
+
+.header_content h2:hover{
+	color: rgb(67, 127, 218);
+}
+
+.header_content h1{
+	margin-bottom: 50px;
+	font-size: 50px;
+	font-weight: bolder;
+	letter-spacing: 0.3em;
+	background-image: linear-gradient(
+	to right,
+	#8a332e 0,
+	#6ae097 22%, 
+#35c796 45%,
+#7abbf0 50%,
+#cfb42e 55%,
+#1be4da 78%,
+#bff73efb 100%
+	);
+   color:transparent;
+   -webkit-background-clip:text;
+}
+
+.header_content h1:hover{
+	color: rgb(67, 127, 218);
+}
+
+.header_content button{
+	height: auto;
+	padding:16px 37px;
+	color:rgb(255, 255, 255);
+	font-size: 12px;
+	background-color: transparent;
+	margin-right: 20px;
+	font-weight: bolder;
+	background-image: linear-gradient(
+	to right,
+	#8a332e 0,
+	#6ae097 22%, 
+#35c796 45%,
+#7abbf0 50%,
+#cfb42e 55%,
+#1be4da 78%,
+#bff73efb 100%
+		);
+	   color:transparent;
+	   -webkit-background-clip:text;
+}
+
+.header_content button a{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bolder;
+	background-image: linear-gradient(
+	to right,
+	#8a332e 0,
+	#6ae097 22%, 
+#35c796 45%,
+#7abbf0 50%,
+#cfb42e 55%,
+#1be4da 78%,
+#bff73efb 100%
+	);
+	   color:transparent;
+	   -webkit-background-clip: text;
+}
+
+.header_content button:hover{
+	background-color: rgb(20, 91, 145);
+	border:1px solid rgb(226, 33, 33);
+	background-image: linear-gradient(
+		to right,
+		#8a332e 0,
+		#6ae097 22%, 
+	#35c796 45%,
+	#7abbf0 50%,
+	#cfb42e 55%,
+	#e41b3c 78%,
+	#bff73efb 100%
+		);
+	   color:transparent;
+	   -webkit-background-clip:text;
+	
+	
+}
+
+.character-table{
+	border-collapse: collapse;
+	width:40em;
+	color: rgba(0,0,0);
+	text-decoration: none;
+	border-radius: 5px;
+	box-shadow: 0px 5px 30px 5px rgba(255, 255, 255, 0.8);
+	position:relative;
+	overflow:hidden;
+}
+
+.text_color{
+	color:rgb(255, 255, 255);
+	text-decoration: none; 	
+}
+
